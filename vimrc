@@ -27,8 +27,15 @@ set spell spelllang=en_us
 
 " enable vim-plug 
 call plug#begin()
+
+" general PlugIns 
 Plug 'preservim/NERDTree'
 Plug 'morhetz/gruvbox'
+
+" Python IDE PlugIns
+Plug 'davidhalter/jedi-vim' "autocompletion
+Plug 'dense-analysis/ale' "asynchronous lint engine
+
 call plug#end()
 
 " gruvbox setting
